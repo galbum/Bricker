@@ -1,0 +1,32 @@
+galbum
+316563949
+
+In the begnning of the project I was following the tutorial that was 
+shown on the campus.il website, after that I started playing around with everything.
+Most of the classes are similar to the classes shown in the tutorial 
+except for GraphicLifeCounter and NumiricalLifeCounter. 
+Also, the abstract class RemoveBrickStrategyDecorator was needed because the four methods
+that add a special strategy would have repeated the code. So definining the decorator saved us writing the 
+same code over and over again.
+
+Question 1 in Algo section:
+We sort the given arrays and we start from lowest to highest and we check if the time that the tasks costs is lower than
+the actual time given. It was neccesary to sort the arrays so we could use Greedy algorithm so answer the question.
+The algorithm runs at O(nlog n) - O(n*log n) sorting the array then O(n) for counting.
+
+Question 2 in Algo section:
+We run over n cells and in each cell we check how many steps we can take from the current position.
+if we reach the end of the steps then we increase jump. We continue this until we reach the end.
+The algorithm runs at O(n) - O(n) one run at the array with O(1) use in each step.
+
+Question 3 in Algo section:
+I looked at the question as similar to Fibbonaci sequence, because at every step we have two different decisions: 
+jump 1 step or jump 2 steps. I used dynamic programing to keep all the steps in a table.
+The algorithm runs at O(n^2) - O(n^2) filling the table with O(1) for filling in each cell.
+
+Question 4 in Algo:
+ I chose to use the dynamin programing to answert this question.
+In cell i in the array we hold the amount of binary search trees that can be used with i nodes.
+The algorithm runs at O(n) - O(n) passing n cells in the array , and filling each one costs O(1) .
+
+
